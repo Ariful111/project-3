@@ -1,0 +1,94 @@
+
+@media (min-width:1200px){	/* xl */
+/*--===== social section=====--*/
+.section4 .social-column button{
+	margin-left:15px;
+}
+}
+@media (max-width:1199px){	/* lg */
+
+}
+@media (max-width:991px){	/* md */
+/*--===== Header =====--*/
+header .nav-link{
+	padding:0.5rem !important;
+}/*-- End Header --*/
+
+/*--===== carousel =====--*/
+.section1 .carousel-caption{
+	right:2%;
+}/*-- End Carousel --*/
+/*--===== social area =====--*/
+.social-area span{
+	margin-right:0;
+}
+}
+@media (max-width:767px){	/* sm */
+/*--===== Header =====--*/
+.navbar-toggler{
+	position:relative;
+}
+.navbar-nav{
+	position:absolute;
+	top:100%;
+	width:100%;
+}
+header .nav-link{
+	border-radius:0 !important;
+}/*-- End Header --*/
+/*--===== carousel =====--*/
+.section1 .carousel-caption{
+	display:none;
+}/*-- End Carousel --*/
+/*--===== card =====--*/
+.section2 .cards>div:last-child{
+	margin-top:20px;
+}/*-- End card --*/
+/*--===== image =====--*/
+.section3 .main-img{
+	margin-bottom:30px;
+}
+.section3 .sub-img .col{
+	padding-right:0;
+}
+.section3 .sub-img>div>div>div:last-child{
+	padding-right:15px;
+}/*-- End image --*/
+/*--===== social area =====--*/
+.social-area span{
+	margin-right:15px;
+}
+.social-area>div>div:first-child{
+	margin-bottom:25px;
+}
+.section4 .social-column input{
+	width:155px;
+}
+}
+@media (max-width:575px){	/* xs */
+/*social section*/
+.section4 .social-column input{
+	width:180px;
+}
+}
+@media (max-width:480px){
+/*--===== card =====--*/
+.section2 .cards>div{
+	max-width:100%;
+	flex-basis:unset;
+}
+.section2 .cards>div{
+	margin-top:20px;
+}
+.section2 .cards>div:first-child{
+	margin-top:0px;
+}
+/*-- End card --*/
+
+}
+@media (max-width:320px){
+/*-- carousel --*/
+.section1{
+	display:none;
+}
+}
